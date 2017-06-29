@@ -1,0 +1,26 @@
+.fly-ball{
+	background-image: url(../img/header-banner.jpg);
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	min-height: calc( 100vh - 180px);
+	width: 100%;
+	position: relative;
+	z-index: 1;
+
+	&__title{
+		width: 300px;
+		position: absolute;
+		left: 20%;
+		top: 60px;
+	}
+
+	&__text{
+		display: none;
+	}
+
+	&__btn{
+		display: none;
+	}
+}

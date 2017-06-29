@@ -1,0 +1,25 @@
+// Это диспетчер подключений, тут не должно быть ничего, кроме импортов
+
+// Глобальные подключения
+@import 'variables.scss';
+@import 'global.scss';
+@import 'fonts.scss';
+@import 'normalize.scss';
+@import 'sprite.scss';
+
+// Это импорт файла с примесями для растровых спрайтов. Используете растровые спрайты — раскомментить,
+// посмотреть контент. Найти примеси, выводящие свойства спрайтов и вызвать эти примеси в нужных вам
+// местах. При «тупом» использовании — вызвать примесь, генерирующую все css-правила спрайта.
+// @import 'sprite.scss';
+
+// БЭМ-блоки. Один БЭМ-блок = 1 файл
+@import 'blocks/magnific-popup.scss';
+@import 'blocks/slick.css';
+@import 'blocks/slick-theme.scss';
+@import 'blocks/sprite.scss';
+@import 'blocks/title.scss';
+@import 'blocks/page-header.scss';
+@import 'blocks/fly-ball.scss';
+@import 'blocks/about.scss';
+@import 'blocks/shortly.scss';
+@import 'blocks/album.scss';
