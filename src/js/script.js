@@ -1,3 +1,8 @@
 $(document).ready(function(){
-  // весь ваш код
+  $('#pic-carousel').slick({
+	 arrows: false,
+    infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1
+  });
 });

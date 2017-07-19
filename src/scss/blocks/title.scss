@@ -1,5 +1,6 @@
 .title{
 	font-size: $font-size + 14px;
+	margin-bottom: 30px;
 
 	&--white{
 		color: $white;
@@ -9,5 +10,9 @@
 		border-bottom: 6px solid $title-line;
 		margin-top: 10px;
 		margin-bottom: 25px;
+	}
+
+	&--center{
+		text-align: center;
 	}
 }

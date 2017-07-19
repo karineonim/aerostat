@@ -22,3 +22,23 @@
 	display: inline-block;
 	margin-right: 20px;
 }
+
+.fly{
+	display: inline-block;
+	position: relative;
+	margin-right: 20px;
+	margin-bottom: -20px;
+	z-index: 10;
+}
+
+.price-personal{
+	position: absolute;
+	top: 55px;
+	left: 10px;
+}
+
+.price-phone{
+	position: absolute;
+	top: 53px;
+	left: 10px;
+}

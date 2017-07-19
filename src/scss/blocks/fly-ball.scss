@@ -4,16 +4,16 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: bottom;
-	min-height: calc( 100vh - 180px);
+	min-height: 300px;
 	width: 100%;
-	position: relative;
-	z-index: 1;
 
 	&__title{
 		width: 300px;
-		position: absolute;
-		left: 20%;
-		top: 60px;
+		// position: absolute;
+		text-align: center;
+		margin: 0 auto;
+		padding-top: 55px;
+		// padding-bottom: 180px;
 	}
 
 	&__text{

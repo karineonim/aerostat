@@ -14,12 +14,20 @@
 
 // БЭМ-блоки. Один БЭМ-блок = 1 файл
 @import 'blocks/magnific-popup.scss';
-@import 'blocks/slick.css';
+@import 'blocks/slick.scss';
 @import 'blocks/slick-theme.scss';
 @import 'blocks/sprite.scss';
 @import 'blocks/title.scss';
+@import 'blocks/button.scss';
 @import 'blocks/page-header.scss';
+@import 'blocks/toggle-nav.scss';
 @import 'blocks/fly-ball.scss';
 @import 'blocks/about.scss';
 @import 'blocks/shortly.scss';
 @import 'blocks/album.scss';
+@import 'blocks/work.scss';
+@import 'blocks/price.scss';
+@import 'blocks/question.scss';
+@import 'blocks/pay.scss';
+@import 'blocks/balloon.scss';
+

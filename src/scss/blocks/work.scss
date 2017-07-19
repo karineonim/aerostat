@@ -1,0 +1,41 @@
+.work{
+	margin-bottom: 50px;
+
+	&__text{
+		font-size: $font-size + 8px;
+		font-family: $font-family;
+		margin-bottom: 33px;
+		position: relative;
+		z-index: 5;
+	}
+
+	&__number{
+		position: absolute;
+		color: $white;
+		left: 13px;
+		top: 4px;
+		font-size: $font-size + 6px;
+	}
+
+	&__map{
+		background-image: url(../img/fly-banner.jpg);
+		background-position: center; 
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: bottom;
+		min-height: 320px;
+		width: 100%;
+		margin-top: -60px;
+		position: relative;
+		z-index: 1;
+	}
+
+	&__wrap{
+		position: absolute;
+		content: '';
+		width: 100%;
+		height: 135px;
+		background-color: rgba(0,0,0,0.5);
+		bottom: 0;
+	}
+}

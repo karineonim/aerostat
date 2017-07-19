@@ -1,0 +1,23 @@
+.pay{
+	margin-bottom: 40px;
+	&__main-text{
+		font-family: $FS-Bold;
+		font-size: 22px;
+		margin-top: 50px;
+		margin-bottom: 28px;
+	}
+
+	&__small-text{
+		font-size: 18px;
+		font-family: $font-family;
+		margin-bottom: 28px;
+	}
+
+	&__call-text{
+		white-space: pre;
+
+		&--italic{
+			font-family: $FS-Italic;
+		}
+	}
+}

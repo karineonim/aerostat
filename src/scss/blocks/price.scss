@@ -1,0 +1,54 @@
+.price{
+	margin-bottom: 95px;
+	&__wrap-text{
+		display: none;
+
+	}
+
+	input{
+		width: 300px;
+		border: 1px solid $border-price;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		font-size: 22px;
+		display: block;
+		padding-left: 30px;
+		width: calc(100% - 30px);
+
+	}
+
+	&__text{
+		font-family: $font-family;
+		font-size: $font-size + 4px;
+		position: relative;
+	}
+
+	&__wrap{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__wrap-price{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		width: 100%;
+		margin-top: 30px;
+
+	}
+
+	&__rub{
+		display: inline-block;
+		font-size: $font-size + 14px;
+		color: $price-rub;
+	}
+
+}
