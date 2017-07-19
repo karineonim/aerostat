@@ -12,7 +12,7 @@
   </script>
 
 
-  <title>Document</title>
+  <title>Аэростат</title>
 </head>
 <body>
 
@@ -80,31 +80,48 @@
 <section class="album">
 <div class="album__container container">
   <h2 class="album__title title">Галерея</h2>
-  <img src="#" alt="">
-  <img src="#" alt="">
-  <img src="#" alt="">
-  <img src="#" alt="">
+  <div id='pic-carousel'>
+
+  <div class="album__wrap">
+    <img src="img/album-sm-1.jpg" alt="SM">
+  </div>
+
+  <div class="album__wrap">
+    <img src="img/album-sm-1.jpg" alt="SM">
+  </div>
+
+  <div class="album__wrap">
+    <img src="img/album-sm-1.jpg" alt="SM">
+  </div>
+
+  <div class="album__wrap">
+    <img src="img/album-sm-1.jpg" alt="SM">
+  </div>
+
+  </div>
 </div>  
 </section>
 
 <section class="work">
 <div class="work__container container">
-  <h2 class="work__title title">Как про<span class="title--border">ходят</span> полеты</h2>
-  <div class="work__text">Взлет</div>
-  <div class="work__text">Набираем высоту</div>
-  <div class="work__text">Летаем</div>
-  <div class="work__text">Снижаемся</div>
-  <div class="work__text">Садимся</div>
-  <div class="work__map"></div>
-  <div class="work__wrap"> 
+  <h2 class="work__title title title--center">Как про<span class="title--border">ходят</span> полеты</h2>
+  <div class="work__text"><div class="fly"><span class="work__number">1</div>Взлет</div>
+  <div class="work__text"><div class="fly"><span class="work__number">2</div>Набираем высоту</div>
+  <div class="work__text"><div class="fly"><span class="work__number">3</div>Летаем</div>
+  <div class="work__text"><div class="fly"><span class="work__number">4</div>Снижаемся</div>
+  <div class="work__text"><div class="fly"><span class="work__number">5</div>Садимся</div>
+  </div> 
+  <div class="work__map">
+    <div class="work__wrap"> 
   <div class="work__time">До ближайшего полета</div>
   </div> 
-</div>  
+  </div>
+ 
 </section>
 
 <section class="price">
 <div class="price__container container">
-  <h2 class="price__title title">Расчитать стоимость</h2>
+  <h2 class="price__title title"><span class="title--border">Расч</span>итать стоимость</h2>
   <div class="price__wrap-text">
     <p class="price__text">Итак, в назначенное время вы приехали на место полета. Команда уже готовит шар к полету - определяется направление ветра, запускаются горелки.
 </p>
@@ -116,13 +133,13 @@
   <input type="text">
   <span class="price__text">Количество человек:</span>
   <input type="text">
-  <span class="price__text">Имя и фамилия:</span>
-  <input type="text">
-  <span class="price__text">Телефон:</span>
-  <input type="text">
-  <div class="price__wrap">
+  <span class="price__text"><div class="price-personal"></div>Имя и фамилия:</span>
+  <input type="text" class="price__personal">
+  <span class="price__text"><div class="price-phone"></div>Телефон:</span>
+  <input type="text" class="price__personal">
+  <div class="price__wrap-price">
     <div class="price__rub">9000 Р</div>
-    <button class="price__btn btn btn--blue">Полетели</button>
+    <button class="price__btn btn btn--blue">Полетели!</button>
   </div>
   </div>
 </div>  
@@ -150,19 +167,19 @@
 
 <section class="pay">
 <div class="pay__container container">
-  <h2 class="pay__title title">Способы оплаты</h2>
+  <h2 class="pay__title title"><span class="title--border">Спос</span>обы оплаты</h2>
   <p class="pay__main-text">Наличными</p>
   <p class="pay__small-text">Вы можете оплатить услугу,  приехав к нам в офис. Для этого Вам необходимо предупредить об этом:</p>
-  <p class="pay__small-text">— по телефону: +7 (812) 640-19-39,
+  <p class="pay__small-text"><span class="pay__call-text">— по телефону: <span class="pay__call-text pay__call-text--italic">+7 (812) 640-19-39</span>,
 — или по почте: 
-    mnebyvnebo@gmail.com</p>
+    <span class="pay__call-text pay__call-text--italic">mnebyvnebo@gmail.com</span></span></p>
   <p class="pay__small-text">Оплачивая услугу в офисе, Вы получаете все документы подтверждающие оплату.</p>
 
   <p class="pay__main-text">Курьером</p>
   <p class="pay__small-text">Вы можете оплатить услугу в любом районе города и в удобное время, вызвав курьера. Для этого Вам необходимо связаться с нашими сотрудниками и сообщить об этом:</p>
-  <p class="pay__small-text">— по телефону: +7 (812) 640-19-39,
+  <p class="pay__small-text"><span class="pay__call-text">— по телефону: <span class="pay__call-text pay__call-text--italic">+7 (812) 640-19-39</span>,
 — или по почте: 
-    mnebyvnebo@gmail.com</p>
+    <span class="pay__call-text pay__call-text--italic">mnebyvnebo@gmail.com</span></p>
   <p class="pay__small-text">Оплачивая услугу курьером, Вы получаете все документы подтверждающие оплату.</p>
 
   <p class="pay__main-text">Картой</p>
@@ -172,7 +189,7 @@
 
 <section class="balloon">
 <div class="balloon__container container">
-  <div class="balloon__banner">
+  <!-- <div class="balloon__banner"> -->
     <div class="balloon__inner">
       <div class="balloon__circle">
         <div class="balloon__number">700</div>
@@ -197,7 +214,7 @@
       </div>
       <div class="balloon__text">Человек в команде</div>
     </div>
-  </div>
+  <!-- </div> -->
 </div>  
 </section>
 
